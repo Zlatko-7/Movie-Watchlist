@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+.top-menu {
+    height: 208px;
+    background-image: url(images/movie-poster.png);
+    background-color: #121212;
+    background-size: cover;
+    color: #FFFFFF;
+    justify-content: space-around;
+    align-items: center;
+}
+h1, a {
+    font-family: Inter, sans-serif;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+input {
+    width: 462px;
+    height: 38px;
+    background-color: #2E2E2F;
+    color: #A5A5A5;
+    border: none;
+    border-radius: 6px 0 0 6px;
+}
+.top-menu, .search-bar {
+    display: flex;
+    flex-direction: row;
+}
+.search-bar {
+    justify-content: center;
+    position: absolute;
+    top: 187px;
+    left: 0;
+    right: 0;
+}
+.search-btn {
+    width: 120px;
+    color: #FFFFFF;
+    background-color: #4B4B4B;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+}
+.img-logo {
+    width: 80px;
+    height: 61px;  
+}
+h3 { 
+    color:  #2E2E2F;
+    font-size: 18px;
+    font-weight: 700;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.movie-container {
+    background-color: #121212;
+}
+.logo, .movie-content {
+    justify-content: center;
+    align-items: center;
+}
+.movie-content {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    max-width: 500px;
+    height: 220px;
+    margin: 0 auto;
+    border-bottom: 1px solid #2C2C2C;
+}
+.movie-info {
+    max-width: 400px;
+    max-height: 200px;
+    margin-left: 21px;
+}
+.poster-img {
+    width: 100px;
+    
+}
+.basic-info {
+   margin-bottom: 11px;
+}
+.plus-info, .basic-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    height: 20px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 500;
+}
+.year, .rating, .plus-info {
+    font-size: 13px;
+}
+.plot {
+    font-size: 14px;
+    color: #A5A5A5;
+    font-weight: 400px;
+}
+.btn-whishlist{
+    color: white;
+    background-color: #121212;
+    border: none;
+} 
+.btn-whishlist:hover {
+    transform: scale(1.35);
+}
+.fa-sharp {
+    font-size: 18px;
+}
+.fa-sharp:active {
+    font-size: 25px;
+}
